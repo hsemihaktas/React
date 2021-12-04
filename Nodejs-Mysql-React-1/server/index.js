@@ -8,7 +8,7 @@ const db = mysql.createPool({
     host:'localhost',
     user:'root',
     pass:'123456789',
-    database:'ilanlar',
+    database:'medeniyet_emlak',
 });
 
 app.use(cors());
