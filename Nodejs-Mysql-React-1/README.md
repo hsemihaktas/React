@@ -1,5 +1,5 @@
 <h1 align="center">
-  GitHub MySql Data Read (Basic)
+  GitHub Nodejs-MySQL-React-1 (Basic)
 </h1>
 🛠️ Kurulum Adımları
 
