@@ -4,9 +4,11 @@
 🛠️ Kurulum Adımları
 
 ```bash
- MySql de odev_ders adlı tablo oluşturup anahtar ve value adlı 2 tane sütun oluşturunuz.
+ MySql de medeniyet_emlak adlı database oluşturunuz.
 ```
-
+```bash
+ Sonra dosyanın içinde database-resimleri adlı dosyadaki tabloları oluşturunuz.
+```
 ```bash
  Sonra projeye girip 2 adet terminal oluşturunuz.
 ```
