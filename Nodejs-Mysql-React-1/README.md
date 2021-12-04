@@ -7,7 +7,7 @@
  MySql de medeniyet_emlak adlı database oluşturunuz.
 ```
 ```bash
- Sonra dosyanın içinde database-resimleri adlı dosyadaki tabloları oluşturunuz.
+ Sonra dosyanın içinde database-resimleri adlı dosyadaki tabloları(tablo isimleri resimlerin isimleri ile aynı olmalıdır) oluşturunuz.
 ```
 ```bash
  Sonra projeye girip 2 adet terminal oluşturunuz.
