@@ -27,7 +27,7 @@ app.get("/api/get",(req,res)=>{
 //Tüm Aktif Olan İlanları Getirir
 app.get("/api/get/aktif",(req,res)=>{
 
-    const sqlSelect = "SELECT * FROM ilanlar WHERE ilan_aktiflik='Aktif'";
+    const sqlSelect = "SELECT * FROM ilanlar";
     db.query(sqlSelect,(err,result)=>{
         res.send(result);
     });
@@ -37,7 +37,7 @@ app.get("/api/get/aktif",(req,res)=>{
 app.get("/api/get/kiralik",(req,res)=>{
 
     const value = "Kiralık"
-    const sqlSelect = "SELECT * FROM ilanlar WHERE ilan_satışTürü='Kiralık' AND ilan_aktiflik='Aktif'" ;
+    const sqlSelect = "SELECT * FROM ilanlar WHERE ilan_satışTürü='Kiralık'" ;
     db.query(sqlSelect,value,(err,result)=>{
         res.send(result);
     });
@@ -47,7 +47,7 @@ app.get("/api/get/kiralik",(req,res)=>{
 app.get("/api/get/satilik",(req,res)=>{
 
     const value = "Kiralık"
-    const sqlSelect = "SELECT * FROM ilanlar WHERE ilan_satışTürü='Satılık' AND ilan_aktiflik='Aktif'" ;
+    const sqlSelect = "SELECT * FROM ilanlar WHERE ilan_satışTürü='Satılık'" ;
     db.query(sqlSelect,value,(err,result)=>{
         res.send(result);
     });
